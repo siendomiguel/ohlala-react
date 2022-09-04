@@ -1,0 +1,52 @@
+@import url(../../App.css);
+
+main {
+  display: flex;
+  justify-content: center;  
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  height: 90vh;
+  background: var(--primary-green);
+}
+
+p {
+  color: var(--white);
+  font-size: 35px;
+}
+
+button {
+  padding: 20px;
+  background: var(--secondary-pink);
+  border: none;
+  border-radius: 15px;
+  box-shadow: 1px 1px 3px 0.5px var(--shadow);
+  color: var(--white);
+  font-weight: 700;
+  font-size: 20px;
+  cursor: pointer;
+  transition-duration: 1s;
+}
+
+button:hover {
+  background: var(--primary-pink);
+  transform: scale(1.7);
+  transition-duration: 1s;
+  box-shadow: 1px 1px 5px 5px var(--shadow);
+}
+
+a {
+  color: var(--white);
+}
+
+
+@media (max-width: 500px) {
+  main {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+  }
+  main p {
+    text-align: center;
+  }
+}

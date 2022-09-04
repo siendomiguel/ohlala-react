@@ -1,0 +1,29 @@
+ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+}
+
+li {
+  margin: 10px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 1440px;
+}
+
+@media (max-width: 1440px) {
+  .container {
+    width: 100%;
+  }
+}
+
+@media (max-width: 500px) {
+  .container {
+    width: 100%;
+  }
+}

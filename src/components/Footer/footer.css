@@ -1,0 +1,12 @@
+@import url(../../App.css);
+
+.footer {
+  background: var(--black);
+  display: grid;
+  place-items: center;
+  height: 48px;
+}
+
+.footer p {
+  font-size: 20px;
+}
