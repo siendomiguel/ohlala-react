@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/ohlala-react/static/css/main.0cb75bb8.css",
+    "main.js": "/ohlala-react/static/js/main.d5afc559.js",
+    "static/js/787.9a386675.chunk.js": "/ohlala-react/static/js/787.9a386675.chunk.js",
+    "index.html": "/ohlala-react/index.html",
+    "main.0cb75bb8.css.map": "/ohlala-react/static/css/main.0cb75bb8.css.map",
+    "main.d5afc559.js.map": "/ohlala-react/static/js/main.d5afc559.js.map",
+    "787.9a386675.chunk.js.map": "/ohlala-react/static/js/787.9a386675.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0cb75bb8.css",
+    "static/js/main.d5afc559.js"
+  ]
+}
