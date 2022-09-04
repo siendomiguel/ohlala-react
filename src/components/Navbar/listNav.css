@@ -1,3 +1,5 @@
+@import url(../../App.css);
+
 ul {
   display: flex;
   justify-content: center;
@@ -7,6 +9,14 @@ ul {
 
 li {
   margin: 10px;
+}
+
+.title {
+  font-family: 'Dancing Script', cursive;
+  background: var(--primary-green);
+  color: var(--white);
+  padding: 5px 10px;
+  border-radius: 15px;
 }
 
 .container {
@@ -25,5 +35,9 @@ li {
 @media (max-width: 500px) {
   .container {
     width: 100%;
+    justify-content: center;
+  }
+  .inactive {
+    display: none;
   }
 }

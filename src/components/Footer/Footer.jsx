@@ -4,7 +4,7 @@ import './footer.css'
 function Footer() {
   return (
     <div className='footer'>
-      <p>Desarrollado en React 18</p>
+      <p>Desarrollado en React!</p>
     </div>
   )
 }

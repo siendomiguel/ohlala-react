@@ -5,9 +5,9 @@ function ListNav() {
   return (
     <div className='container'>
       <ul>
-        <li>Oh lá lá</li>
+        <li className='title'>¡Oh, lá lá!</li>
       </ul>
-      <ul>
+      <ul className='inactive'>
         <li>Inicio</li>
         <li>Contacto</li>
         <li>Agendar cita</li>

@@ -6,7 +6,7 @@ function Main() {
     <main className="main-container">
       <p className="text-animation">Pagina en construcción</p>
       <button type="button">
-        <a href="https://wa.me/573212600682">Escribenos al Whatsapp</a>
+        <a href="https://wa.me/573212600682">Escribenos al WhatsApp</a>
       </button>
     </main>
   );
